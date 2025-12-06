@@ -1,0 +1,1152 @@
+CRITICAL - 2024-09-13 00:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 00:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 00:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 00:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 01:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 01:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 01:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 01:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 02:00:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 02:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 02:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 02:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 03:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 03:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 03:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 03:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 04:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 04:15:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 04:30:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 04:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 05:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 05:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 05:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 05:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 06:00:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 06:15:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 06:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 06:45:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 07:00:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 07:15:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 07:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 07:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 08:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 08:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 08:30:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 08:45:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 09:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 09:15:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 09:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 09:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 10:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 10:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 10:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 10:45:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 11:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 11:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 11:30:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 11:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 12:00:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 12:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 12:30:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 12:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 13:00:04 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 13:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 13:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 13:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 14:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 14:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 14:30:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 14:45:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:15:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 15:45:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 16:00:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 16:15:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 16:30:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 16:45:04 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 17:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 18:00:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 18:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 18:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 18:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 19:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 19:15:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 19:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 19:45:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 20:00:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 20:15:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 20:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 20:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 21:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 21:15:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 21:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 21:45:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:15:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:30:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 22:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:00:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:15:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:30:03 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-13 23:45:02 --> ErrorException: Constant LANG already defined
+[Method: GET, Route: CronJob/envia_avisos]
+in APPPATH/Controllers/CronJob.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Constant LANG already defined', '/home/next0355/dev.next1crm.com.br/app/Controllers/CronJob.php', 18)
+ 2 APPPATH/Controllers/CronJob.php(18): define('LANG', 'portuguese_br')
+ 3 APPPATH/Controllers/DynamicController.php(19): App\Controllers\CronJob->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DynamicController->execute('CronJob', 'envia_avisos')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DynamicController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,1016 @@
+/* General Demo Style */
+body {
+    font-family: 'Open Sans Condensed', 'Arial', serif;
+    font-weight: 400;
+    font-size: 15px;
+    overflow-y: scroll;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.main {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px 0px;
+    margin: 0 auto 30px auto;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    height: calc(100% + 37px);
+    padding: 15px;
+}
+
+.clr {
+    clear: both;
+    padding: 0;
+    height: 0;
+    margin: 0;
+}
+
+.container>header {
+    margin: 10px;
+    padding: 20px 10px 10px 10px;
+    position: relative;
+    display: block;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container>header h1 {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0;
+    position: relative;
+    font-weight: 300;
+    color: #888;
+    padding: 5px 0px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+.container>header h1 span {
+    font-weight: 700;
+}
+
+.container>header p {
+    font-style: italic;
+    color: #aaa;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+/* Header Style */
+.codrops-top {
+    line-height: 24px;
+    font-size: 11px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    z-index: 9999;
+    position: relative;
+    font-family: Cambria, Georgia, serif;
+    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.codrops-top a {
+    padding: 0px 10px;
+    letter-spacing: 1px;
+
+    display: inline-block;
+}
+
+.codrops-top a:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.codrops-top span.right {
+    float: right;
+}
+
+.codrops-top span.right a {
+    float: left;
+    display: block;
+}
+
+.ie-note {
+    color: #ac375d;
+    display: none;
+    font-size: 15px;
+}
+
+/*********************
+ * Graph Holder styles *
+ *********************/
+
+/** Graph Holder container **/
+.graph-container {
+    position: relative;
+    /* required Y axis stuff, Graph Holder's left and bottom sides to be positions properly */
+    display: inline-block;
+    /* display: table may also work.. */
+    padding: 0;
+    /* let the bars position themselves */
+    list-style: none;
+    /* we don't want to see any default <ul> markers */
+    margin: 0px 0 0 40px;
+    font-size: 0.8em;
+    /* Graph Holder's Background */
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, .3) 100%, transparent 100%);
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, .3) 100%, transparent 100%);
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, .3) 100%, transparent 100%);
+    background-image: -ms-linear-gradient(left, rgba(255, 255, 255, .3) 100%, transparent 100%);
+    background-image: linear-gradient(left, rgba(255, 255, 255, .3) 100%, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 -2.5em;
+    display: flex;
+    margin-left: 7em;
+}
+
+/* Graph Holder bottom side */
+.graph-container:before {
+    position: absolute;
+    content: "";
+
+    bottom: 0;
+    left: -1.25em;
+    /* skew pushes it left, so we move it a bit in opposite direction */
+
+    width: 100%;
+    /* make sure it is as wide as the whole graph */
+
+    height: 2.5em;
+    background-color: rgba(183, 183, 183, 0.4);
+
+    /* Make it look perspective */
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    -o-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    transform: skew(-45deg);
+}
+
+/* Graph Holder left side */
+.graph-container:after {
+    position: absolute;
+    content: "";
+
+    top: 1.25em;
+    /* skew pushes it up so we move it down a bit */
+    left: -2.5em;
+
+    width: 2.5em;
+    background-color: rgba(129, 129, 129, 0.2);
+
+    /* Make it look perspective */
+    -webkit-transform: skew(0deg, -45deg);
+    -moz-transform: skew(0deg, -45deg);
+    -o-transform: skew(0deg, -45deg);
+    -ms-transform: skew(0deg, -45deg);
+    transform: skew(0deg, -45deg);
+}
+
+/* Bars and X-axis labels holder */
+.graph-container>li {
+    float: left;
+    /* Make sure bars are aligned one next to another */
+    position: relative;
+    /* Make sure X-axis labels are positioned relative to this element */
+}
+
+/* A small hack to make Graph Holder's background side be wide enough
+   ..because our bottom side is skewed and pushed to the right, we have to compensate it in Graph Holder's background */
+.graph-container>li:nth-last-child(2) {
+    margin-right: 2.5em;
+}
+
+/* X-axis labels */
+.graph-container>li>span {
+    position: absolute;
+    left: 0;
+    bottom: -2em;
+    width: 80%;
+    /* play with this one if you change perspective depth */
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+    color: #777;
+    font-size: 12px;
+}
+
+/*******************************
+ * Graph Y-axis Markers styles *
+ *******************************/
+
+/* Markers container */
+.graph-container>li:last-child {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* Y-axis Markers list */
+.graph-marker-container>li {
+    position: absolute;
+    left: -2.5em;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 2.5em;
+    list-style: none;
+}
+
+/* Y-axis lines general styles */
+.graph-marker-container>li:before,
+.graph-marker-container>li:after {
+    content: "";
+    position: absolute;
+    border-style: none none dotted;
+    border-color: rgba(100, 100, 100, .15);
+    border-width: 0 0 .15em;
+    background: rgba(133, 133, 133, .15);
+}
+
+/* Y-axis Side line */
+.graph-marker-container>li:before {
+    width: 3.55em;
+    height: 0;
+    bottom: -1.22em;
+    left: -.55em;
+    z-index: 2;
+    /* be above .graph-container:after */
+
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+/* Y-axis Background line */
+.graph-marker-container li:after {
+    width: 100%;
+    bottom: 0;
+    left: 2.5em;
+}
+
+/* Y-axis text Label */
+.graph-marker-container span {
+    position: absolute;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+    top: 1em;
+    left: -3.5em;
+    /* just to push it away from the graph.. */
+    width: 5.5em;
+    /* give it absolute value of left offset */
+    font-size: 13px;
+    color: #7c7c7c;
+}
+
+/*********************
+ * Graph Bars styles *
+ *********************/
+
+/* Bar wrapper - hides the inner bar when it goes below the bar, required */
+.bar-wrapper {
+    overflow: hidden;
+}
+
+/* Bar container - this guy is a real parent of a bar's parts - they all are positioned relative to him */
+.bar-container {
+    position: relative;
+    margin-top: 2.5em;
+    /* should be at least equal to the top offset of background casing */
+    /* because back casing is positioned higher than actual bar */
+    width: 12.5em;
+    /* required, we have to define the width of a bar */
+}
+
+/* right bottom patch - make sure inner bar's right bottom corner is "cut" when it slides down */
+.bar-container:before {
+    content: "";
+    position: absolute;
+    z-index: 3;
+    /* to be above .bar-inner */
+
+    bottom: 0;
+    right: 0;
+
+    /* Use bottom border to shape triangle */
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 2.5em 2.5em;
+    border-color: transparent transparent rgba(183, 183, 183, 0);
+}
+
+/** BACK CASING **/
+/* Back panel */
+.bar-background {
+    width: 10em;
+    height: 100%;
+    position: absolute;
+    top: -2.5em;
+    left: 2.5em;
+    z-index: 1;
+    /* just for reference */
+}
+
+.bar-background:before,
+.bar-background:after {
+    content: "";
+    position: absolute;
+}
+
+/* Bottom panel */
+.bar-background:before {
+    bottom: -2.5em;
+    right: 1.25em;
+    width: 10em;
+    height: 2.5em;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    -o-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    transform: skew(-45deg);
+}
+
+/* Left back panel */
+.bar-background:after {
+    top: 1.25em;
+    right: 10em;
+    width: 2.5em;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* skew only the Y-axis */
+    -webkit-transform: skew(0deg, -45deg);
+    -moz-transform: skew(0deg, -45deg);
+    -o-transform: skew(0deg, -45deg);
+    -ms-transform: skew(0deg, -45deg);
+    transform: skew(0deg, -45deg);
+}
+
+/** FRONT CASING **/
+/* Front panel */
+.bar-foreground {
+    z-index: 3;
+    /* be above .bar-background and .bar-inner */
+}
+
+.bar-foreground,
+.bar-inner {
+    position: absolute;
+    width: 10em;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.bar-foreground:before,
+.bar-foreground:after,
+.bar-inner:before,
+.bar-inner:after {
+    content: "";
+    position: absolute;
+}
+
+/* Right front panel */
+.bar-foreground:before,
+.bar-inner:before {
+    top: -1.25em;
+    right: -2.5em;
+    width: 2.5em;
+    height: 100%;
+    background-color: rgba(160, 160, 160, .27);
+
+    -webkit-transform: skew(0deg, -45deg);
+    -moz-transform: skew(0deg, -45deg);
+    -o-transform: skew(0deg, -45deg);
+    -ms-transform: skew(0deg, -45deg);
+    transform: skew(0deg, -45deg);
+}
+
+/* Top front panel */
+.bar-foreground:after,
+.bar-inner:after {
+    top: -2.5em;
+    right: -1.25em;
+    width: 100%;
+    height: 2.5em;
+    background-color: rgba(160, 160, 160, .2);
+
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    -o-transform: skew(-45deg);
+    -ms-transform: skew(-45deg);
+    transform: skew(-45deg);
+}
+
+/** BAR's inner block **/
+.bar-inner {
+    z-index: 2;
+    /* to be above .bar-background */
+    top: auto;
+    /* reset position top */
+    background-color: rgba(5, 62, 123, .6);
+    height: 0;
+    bottom: -2.5em;
+    color: transparent;
+    /* hide text values */
+
+    -webkit-transition: height 0.8s ease-out, bottom 0.8s ease-out;
+    -moz-transition: height 0.8s ease-out, bottom 0.8s ease-out;
+    -o-transition: height 0.8s ease-out, bottom 0.8s ease-out;
+    -ms-transition: height 0.8s ease-out, bottom 0.8s ease-out;
+    transition: height 0.8s ease-out, bottom 0.8s ease-out;
+}
+
+/* Right panel */
+.bar-inner:before {
+    background-color: rgba(5, 62, 123, .6);
+}
+
+/* Top panel */
+.bar-inner:after {
+    background-color: rgba(47, 83, 122, .7);
+}
+
+/******************************************************************************
+ **                                                                          **
+ ** UI Elements                                                              **
+ **                                                                          **
+ ** You don't need this stuff in general, it's just used  for the demo page  **
+ **                                                                          **
+ ******************************************************************************/
+
+/****************
+ * FILL BUTTONS  *
+ ****************/
+input[name^="fill-"] {
+    width: 65px;
+    height: 25px;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 100;
+}
+
+input[name^="fill-"]+label {
+    display: inline-block;
+    margin: 0px;
+    width: 65px;
+    padding: 0px 6px;
+    color: #777;
+    line-height: 20px;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px #fff;
+    border: 1px solid #fff;
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    /* IE10+ */
+    background: linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    /* W3C */
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+input[name^="fill-"]:checked+label {
+    background: rgba(34, 35, 36, .7);
+    border-color: #333;
+    color: #fff;
+    text-shadow: none;
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.4);
+}
+
+
+/****************
+ * COLOR BUTTONS  *
+ ****************/
+input[name^="paint-"] {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 100;
+}
+
+/* unselected color switch */
+input[name^="paint-"]+label {
+    color: #989da4;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    background: rgba(34, 35, 36, .7);
+    /*#171b20;*/
+    margin: 0 2px -7px;
+
+    position: relative;
+    cursor: pointer;
+    color: transparent;
+
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 1px 1px 3px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#graph-blue+label {
+    background: #2972c3;
+    background: -webkit-radial-gradient(rgba(39, 118, 205, 1), rgba(44, 106, 174, .9));
+    background: -moz-radial-gradient(rgba(39, 118, 205, 1), rgba(44, 106, 174, .9));
+    background: -o-radial-gradient(rgba(39, 118, 205, 1), rgba(44, 106, 174, .9));
+    background: -ms-radial-gradient(rgba(39, 118, 205, 1), rgba(44, 106, 174, .9));
+    background: radial-gradient(rgba(39, 118, 205, 1), rgba(44, 106, 174, .9));
+}
+
+#graph-green+label {
+    background: #5f9a3f;
+    background: -webkit-radial-gradient(rgba(98, 160, 60, .9), rgba(43, 148, 48, 1));
+    background: -moz-radial-gradient(rgba(98, 160, 60, .9), rgba(43, 148, 48, 1));
+    background: -o-radial-gradient(rgba(98, 160, 60, .9), rgba(43, 148, 48, 1));
+    background: -ms-radial-gradient(rgba(98, 160, 60, .9), rgba(43, 148, 48, 1));
+    background: radial-gradient(rgba(98, 160, 60, .9), rgba(43, 148, 48, 1));
+}
+
+#graph-lilac+label {
+    background: #c8a2c8;
+    background: -webkit-radial-gradient(#c8a2c8, #aa67aa);
+    background: -moz-radial-gradient(#c8a2c8, #aa67aa);
+    background: -o-radial-gradient(#c8a2c8, #aa67aa);
+    background: -ms-radial-gradient(#c8a2c8, #aa67aa);
+    background: radial-gradient(#c8a2c8, #aa67aa);
+}
+
+
+
+.graph-rainbow label {
+    background: transparent url(../img/rainbow.gif) no-repeat;
+}
+
+.graph-green:checked label,
+.graph-blue:checked label,
+.graph-rainbow:checked label,
+.graph-lilac:checked label {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7), 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.graph-blue .bar-inner,
+.graph-blue .bar-inner:before {
+    background-color: rgba(5, 62, 123, .6);
+}
+
+.graph-blue .bar-inner:after {
+    background-color: rgba(47, 83, 122, .7);
+}
+
+.graph-green .bar-inner,
+.graph-green .bar-inner:before {
+    background-color: rgba(5, 123, 5, .3);
+}
+
+.graph-green .bar-inner:after {
+    background-color: rgba(63, 122, 47, .4);
+}
+
+.graph-lilac .bar-inner,
+.graph-lilac .bar-inner:before {
+    background-color: rgba(161, 60, 161, 0.452);
+}
+
+.graph-lilac .bar-inner:after {
+    background-color: rgb(190, 133, 190, .4);
+}
+
+
+
+.graph-rainbow li:nth-child(1) .bar-inner,
+.graph-rainbow li:nth-child(1) .bar-inner:before {
+    background-color: rgba(200, 162, 200, .6);
+}
+
+.graph-rainbow li:nth-child(1) .bar-inner:after {
+    background-color: rgba(200, 162, 200, .7);
+}
+
+.graph-rainbow li:nth-child(2) .bar-inner,
+.graph-rainbow li:nth-child(2) .bar-inner:before {
+    background-color: rgba(5, 123, 5, .3);
+}
+
+.graph-rainbow li:nth-child(2) .bar-inner:after {
+    background-color: rgba(63, 122, 47, .4);
+}
+
+.graph-rainbow li:nth-child(3) .bar-inner,
+.graph-rainbow li:nth-child(3) .bar-inner:before {
+    background-color: rgba(255, 0, 0, .3);
+}
+
+.graph-rainbow li:nth-child(3) .bar-inner:after {
+    background-color: rgba(255, 71, 71, .3);
+}
+
+.graph-rainbow li:nth-child(4) .bar-inner,
+.graph-rainbow li:nth-child(4) .bar-inner:before {
+    background-color: rgba(0, 255, 255, .3);
+}
+
+.graph-rainbow li:nth-child(4) .bar-inner:after {
+    background-color: rgba(0, 255, 255, .5);
+}
+
+.graph-rainbow li:nth-child(5) .bar-inner,
+.graph-rainbow li:nth-child(5) .bar-inner:before {
+    background-color: rgba(5, 62, 123, .3);
+}
+
+.graph-rainbow li:nth-child(5) .bar-inner:after {
+    background-color: rgba(47, 83, 122, .5);
+}
+
+.graph-rainbow li:nth-child(6) .bar-inner,
+.graph-rainbow li:nth-child(6) .bar-inner:before {
+    background-color: rgba(243, 219, 0, 0.3);
+}
+
+.graph-rainbow li:nth-child(6) .bar-inner:after {
+    background-color: rgba(243, 219, 0, .5);
+}
+
+.graph-rainbow li:nth-child(7) .bar-inner,
+.graph-rainbow li:nth-child(7) .bar-inner:before {
+    background-color: rgba(121 151 150, 0.3);
+}
+
+.graph-rainbow li:nth-child(7) .bar-inner:after {
+    background-color: rgba(121 151 150, .5);
+}
+
+.graph-rainbow li:nth-child(8) .bar-inner,
+.graph-rainbow li:nth-child(8) .bar-inner:before {
+    background-color: rgba(201 18 239, 0.3);
+}
+
+.graph-rainbow li:nth-child(8) .bar-inner:after {
+    background-color: rgba(201 18 239, .5);
+}
+
+
+/****************
+ * SIZE BUTTONS  *
+ ****************/
+input[name^="resize-"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 100;
+    width: 70px;
+    height: 35px;
+    z-index: 100;
+}
+
+/* unselected color switch */
+input[name^="resize-"]+label {
+    color: #fff;
+    display: inline-block;
+    background: rgba(183, 172, 172, .7);
+    width: 70px;
+    line-height: 35px;
+    height: 35px;
+    text-align: center;
+    position: relative;
+}
+
+input[name^="resize-"]:checked+label {
+    background: rgba(34, 35, 36, .7);
+    color: #fff;
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+
+
+.graph-container .bar-container,
+.graph-container:after,
+.graph-container>li:last-child {
+    height: 268px;
+}
+
+
+
+/******************************************************************************
+ **                                                                          **
+ ** VARIABLES                                                                **
+ **                                                                          **
+ ******************************************************************************/
+
+/****************
+ * SPACING      *
+ ****************/
+
+/* spacing between bars */
+.graph-container>li .bar-container {
+    margin-right: 1.5em;
+}
+
+/* spacing before first bar */
+.graph-container>li:first-child {
+    margin-left: 1.5em;
+}
+
+/* spacing after last bar */
+.graph-container>li:nth-last-child(2) .bar-container {
+    margin-right: 1em;
+}
+
+/****************
+ *    Colors    *
+ ****************/
+
+/* Bar's Back side */
+.bar-background {
+    background-color: rgba(160, 160, 160, .1);
+}
+
+/* Bar's Bottom side */
+.bar-background:before {
+    background-color: rgba(160, 160, 160, .2);
+}
+
+/* Bar's Left Back side */
+.bar-background:after {
+    background-color: rgba(160, 160, 160, .05);
+}
+
+/* Bar's Front side */
+.bar-foreground {
+    background-color: rgba(160, 160, 160, .1);
+}
+
+.button-label {
+    font-weight: bold;
+    color: #aaa;
+    line-height: 40px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+    display: inline;
+    margin: 0 10px 0 20px;
+}
+
+.button-label:before {
+    content: " ";
+    white-space: wrap;
+}
+
+/******************************************************************************
+ **                                                                          **
+ ** RESPONSIVENESS                                                           **
+ **                                                                          **
+ ** Just as an example to show you the way how to resize the graph 			 **
+ **                                                                          **
+ ******************************************************************************/
+
+@media screen and (max-width: 1125px) {
+    .graph-container {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .graph-container {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .button-label {
+        margin: 0 10px 0 0;
+    }
+
+    .button-label:before {
+        content: "\A";
+        white-space: pre;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .graph-container {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .graph-container {
+        font-size: 0.45em;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .graph-container {
+        font-size: 0.32em;
+    }
+
+    .graphBarra .label {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .graph-container {
+        font-size: 0.22em;
+    }
+
+    .button-label {
+        margin: 0 5px 0 0;
+    }
+}
+
+
+.graph03 canvas {
+    position: absolute;
+    top: -webkit-calc(50% - 250px);
+    top: calc(50% - 250px);
+    left: -webkit-calc(50% - 300px);
+    left: calc(50% - 300px);
+}
+
+.graph03 div {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial;
+}
+
+.graph03 span {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: #666;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.graph03 span a {
+    text-decoration: none;
+    color: #0579f5;
+}
+
+.bar-chart {
+    position: relative;
+}
+
+.exibeData {
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    z-index: 999999;
+    display: none;
+}
+
+.bar-container:hover .exibeData {
+    display: block;
+}
+
+.widget-chart-container {
+    position: unset !important;
+}
+
+md-card md-card-title md-card-title-text .md-subhead {
+    font-size: 12px !important;
+}
+
+md-input-container>md-select {
+    font-size: 15px !important;
+}
+
+.titleDash {
+    text-align: left;
+    float: left;
+    padding-top: 20px;
+    width: calc(100% - 40px);
+}
+
+md-option .md-text {
+    font-size: 15px !important;
+}
+
+.md-tab {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+
+@import url(//fonts.googleapis.com/css?family=Oswald:400);
+
+.chart {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.doughnutTip {
+    position: fixed;
+    min-width: 30px;
+    max-width: 300px;
+    padding: 5px 15px;
+    border-radius: 1px;
+    background: rgba(0, 0, 0, .8);
+    color: #ddd;
+    font-size: 17px;
+    text-shadow: 0 1px 0 #000;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.3;
+    letter-spacing: .06em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+.doughnutTip::after {
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    content: "";
+    height: 0;
+    margin: 0 0 0 -6px;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 6px solid rgba(0, 0, 0, .7);
+    line-height: 0;
+}
+
+
+.doughnutSummary {
+    color: #d5d5d5;
+    text-align: center;
+    text-shadow: 0 -1px 0 #111;
+    cursor: default;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.doughnutSummaryTitle {
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: .06em;
+}
+
+.doughnutSummaryNumber {
+    width: 100%;
+    font-size: 35px;
+}
+
+.chart path:hover {
+    opacity: 0.65;
+}
+
+.btn_balao {
+    width: 24px;
+    float: right;
+    height: 24px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.closeModal {
+    top: 19px;
+    right: 15px;
+    position: absolute;
+    font-size: 23px;
+}
+
+.modal-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn_balaoGraph{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 17px;
+    height: 17px;
+}
+#textoBalao{
+    font-size: 16px !important;
+}

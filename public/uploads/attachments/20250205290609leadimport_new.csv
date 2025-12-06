@@ -1,0 +1,11 @@
+Tipo de pessoa,name,company,cnpj,cpf,web_site,setor_atividade,dt_nascimento,porte,instagram,facebook,linkedin,zip,city ,state,address,email,website,phone,description,nm_contato_01,cargo_01,email_01,telefone_01,ctt_principal_01,observacao_01,linkedin_01,dt_aniversario_01,nm_contato_02,cargo_02,email_02,telefone_02,ctt_principal_02,observacao_02,linkedin_02,dt_aniversario_02
+F,Renan,,,132.383.780-90,,,16/10/2021,,"""@renanInsta""","""@renanFace""","""@renanLK""",4533221,Sao Paulo,SP,Sample Address,example@email.com,www.example.com,1121223344,ABC,matheus,funcionario,teste@teste.com,12 987654321,1,nda,,10/11/1989,caio,caixa,teste@teste.com,12 987654321,0,nda,,18/01/1995
+J,,Teste S.A,11.795.805/0001-95,,teste.com.br,agropecuario,,grande,,,,1533210,Araraquara,SP,Sample 2,marco@gmail.com,www.uol.com.br,1198334456,DEF,kleber,gerente,teste@teste.com,12 987654321,0,nda,jhj,28/06/1999,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+J,Ricardo de Queiroz,,,,,,,,,,,,,,,contato@ricardodequeiroz.com.br,,21978801470,,Ricardo de Queiroz,,contato@ricardodequeiroz.com.br,21978801470,1,,,,,,,,,,,
+J,Thiago UX,,,,,,,,,,,,,,,thiago.meneghini@gmail.com,,11985056789,,Thiago UX,,thiago.meneghini@gmail.com,11985056789,1,,,,,,,,,,,
+J,Iolanda Marques Lima,,,,,,,,,,,,,,,neobroker@neobrokerseguros.com.br,,21979017920,,Iolanda Marques Lima,,neobroker@neobrokerseguros.com.br,21979017920,1,,,,,,,,,,,
+J,Jeremias Pereira de Magalhães,,,,,,,,,,,,,,,magalhaessulamerica1@gmail.com,,1141154042,,Jeremias Pereira de Magalhães,,magalhaessulamerica1@gmail.com,1141154042,1,,,,,,,,,,,
+J,Diego Valadão,,,,,,,,,,,,,,,casaforte7seguranca@gmail.com,,3891104978,,Diego Valadão,,casaforte7seguranca@gmail.com,3891104978,1,,,,,,,,,,,
+J,Elisângela Oliveira Nascimento,,,,,,,,,,,,,,,lioliveiranascimento@gmail.com,,11958281786,,Elisângela Oliveira Nascimento,,lioliveiranascimento@gmail.com,11958281786,1,,,,,,,,,,,
+J,Sildo Ximenes Santos,,,,,,,,,,,,,,,sildoximenes@hotmail.com,,22997673094,,Sildo Ximenes Santos,,sildoximenes@hotmail.com,22997673094,1,,,,,,,,,,,

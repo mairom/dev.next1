@@ -1,0 +1,17 @@
+<?php
+namespace App\Controllers;
+defined( 'BASEPATH' )OR exit( 'No direct script access allowed' );
+class Migrate extends BaseController {
+
+	public
+
+	function index() {
+		$this->load->library( 'migration' );
+
+		if ( $this->migration->current() === FALSE ) {
+			show_error( $this->migration->error_string() );
+		}
+		echo "Migration Done";
+	}
+
+}

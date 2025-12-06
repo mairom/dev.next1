@@ -1,0 +1,38 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+FontName untitled-font-2
+FontSubfamily font-2
+UniqueID FontForge 2.0 : untitled-font-2 : 13-10-2017
+FullName untitled-font-2
+Version Version 1.0
+PostScriptName untitled-font-2
+Weight Medium
+ItalicAngle 0
+IsFixedPitch true
+UnderlineThickness 0
+UnderlinePosition 0
+FontHeightOffset 90
+Ascender 1004
+Descender -8
+FontBBox -2 -8 1004 1002
+StartCharMetrics 19
+U 97 ; WX 1000 ; N contracts ; G 3
+U 98 ; WX 1000 ; N expenses ; G 4
+U 99 ; WX 1000 ; N tasks ; G 5
+U 100 ; WX 1000 ; N invoices ; G 6
+U 101 ; WX 1000 ; N supports ; G 7
+U 102 ; WX 1000 ; N reports ; G 8
+U 103 ; WX 1000 ; N campaings ; G 9
+U 104 ; WX 1000 ; N customers ; G 10
+U 105 ; WX 1000 ; N staffdetail ; G 11
+U 106 ; WX 1000 ; N staff ; G 12
+U 107 ; WX 1000 ; N leads ; G 13
+U 108 ; WX 1000 ; N label ; G 14
+U 109 ; WX 1000 ; N projects ; G 15
+U 110 ; WX 1000 ; N products ; G 16
+U 111 ; WX 1000 ; N accounts ; G 17
+U 112 ; WX 1000 ; N proposals ; G 18
+EndCharMetrics
+EndFontMetrics
